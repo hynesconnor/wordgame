@@ -16,8 +16,6 @@ gameState = True
 index = r.randint(0, len(wordList) - 1)
 wordChoice = wordList[index]
 
-print("today's word is: ", wordChoice)
-
 # list used to display results of a guess
 # #: no, $: yes, *: wrong place
 resultList = ["#", "#", "#", "#", "#"]
