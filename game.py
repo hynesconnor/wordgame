@@ -1,11 +1,9 @@
 import pandas as p
 import random as r
 
-
 # colored text solution, SO
 def colored(r, g, b, text):
     return "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(r, g, b, text)
-
 
 # import list of words, convert to list
 wordList = p.read_csv("data/words.csv", header=None)
